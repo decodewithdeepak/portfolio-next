@@ -70,7 +70,7 @@ export default function Home() {
           <h2 className="text-xl font-semibold mb-4">Projects</h2>
           <div className="space-y-6">
             <div className="border border-gray-200 dark:border-gray-800 rounded-lg p-4 hover:bg-gray-50 dark:hover:bg-white/5 transition-colors">
-              <h3 className="font-medium text-lg mb-1">NotesNeo</h3>
+            <div className="border border-gray-200 dark:border-gray-800 rounded-lg p-4 hover:bg-gray-100 dark:hover:bg-white/5 transition-colors">
               <p className="text-foreground/70 mb-2">A platform where students can find and share quality notes by subject. No more "does anyone have notes?" in group chats 😄</p>
               <div className="flex space-x-2 text-xs">
                 <span className="px-2 py-1 bg-gray-100 dark:bg-white/10 rounded">React</span>
@@ -79,7 +79,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="border border-gray-200 dark:border-gray-800 rounded-lg p-4 hover:bg-gray-50 dark:hover:bg-white/5 transition-colors">
+            <div className="border border-gray-200 dark:border-gray-800 rounded-lg p-4 hover:bg-gray-100 dark:hover:bg-white/5 transition-colors">
               <h3 className="font-medium text-lg mb-1">NeoCode</h3>
               <p className="text-foreground/70 mb-2">An interactive coding platform where learning DSA doesn't feel like torture. Clean UI, proper explanations, and a progress tracker.</p>
               <div className="flex space-x-2 text-xs">
@@ -89,7 +89,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="border border-gray-200 dark:border-gray-800 rounded-lg p-4 hover:bg-gray-50 dark:hover:bg-white/5 transition-colors">
+            <div className="border border-gray-200 dark:border-gray-800 rounded-lg p-4 hover:bg-gray-100 dark:hover:bg-white/5 transition-colors">
               <h3 className="font-medium text-lg mb-1">NeoCompiler</h3>
               <p className="text-foreground/70 mb-2">Online compiler with multiple languages, themes, and AI suggestions when you're stuck.</p>
               <div className="flex space-x-2 text-xs">
