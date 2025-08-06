@@ -33,23 +33,23 @@ export default function Home() {
           {/* Social Links */}
           <div className="flex space-x-4">
             <Link href="https://github.com/decodewithdeepak" target="_blank" rel="noopener noreferrer"
-              className="p-2 rounded-md hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors">
+              className="p-2 rounded-md hover:bg-gray-100 transition-colors">
               <Github className="w-5 h-5" />
             </Link>
             <Link href="https://linkedin.com/in/deepakmodi1" target="_blank" rel="noopener noreferrer"
-              className="p-2 rounded-md hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors">
+              className="p-2 rounded-md hover:bg-gray-100 transition-colors">
               <Linkedin className="w-5 h-5" />
             </Link>
             <Link href="https://twitter.com/deepakmodi" target="_blank" rel="noopener noreferrer"
-              className="p-2 rounded-md hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors">
+              className="p-2 rounded-md hover:bg-gray-100 transition-colors">
               <Twitter className="w-5 h-5" />
             </Link>
             <Link href="mailto:deepakmodi8676@gmail.com" target="_blank" rel="noopener noreferrer"
-              className="p-2 rounded-md hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors">
+              className="p-2 rounded-md hover:bg-gray-100 transition-colors">
               <Mail className="w-5 h-5" />
             </Link>
             <Link href="https://resume.deepakmodi.tech/?portfolio" target="_blank" rel="noopener noreferrer"
-              className="p-2 rounded-md hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors">
+              className="p-2 rounded-md hover:bg-gray-100 transition-colors">
               <FileText className="w-5 h-5" />
             </Link>
           </div>
@@ -69,7 +69,7 @@ export default function Home() {
         <section className="mb-12 border-t border-gray-200 dark:border-gray-800 pt-8">
           <h2 className="text-xl font-semibold mb-4">Projects</h2>
           <div className="space-y-6">
-            <div className="border border-gray-200 dark:border-gray-800 rounded-lg p-4 hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors">
+            <div className="border border-gray-200 dark:border-gray-800 rounded-lg p-4 hover:bg-gray-50 transition-colors">
               <h3 className="font-medium text-lg mb-1">NotesNeo</h3>
               <p className="text-foreground/70 mb-2">A platform where students can find and share quality notes by subject. No more "does anyone have notes?" in group chats 😄</p>
               <div className="flex space-x-2 text-xs">
@@ -79,7 +79,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="border border-gray-200 dark:border-gray-800 rounded-lg p-4 hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors">
+            <div className="border border-gray-200 dark:border-gray-800 rounded-lg p-4 hover:bg-gray-50 transition-colors">
               <h3 className="font-medium text-lg mb-1">NeoCode</h3>
               <p className="text-foreground/70 mb-2">An interactive coding platform where learning DSA doesn't feel like torture. Clean UI, proper explanations, and a progress tracker.</p>
               <div className="flex space-x-2 text-xs">
@@ -89,7 +89,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="border border-gray-200 dark:border-gray-800 rounded-lg p-4 hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors">
+            <div className="border border-gray-200 dark:border-gray-800 rounded-lg p-4 hover:bg-gray-50 transition-colors">
               <h3 className="font-medium text-lg mb-1">NeoCompiler</h3>
               <p className="text-foreground/70 mb-2">Online compiler with multiple languages, themes, and AI suggestions when you're stuck.</p>
               <div className="flex space-x-2 text-xs">
