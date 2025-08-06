@@ -6,7 +6,7 @@ import { Github, Linkedin, Mail, FileText, Twitter } from "lucide-react";
 
 export default function Home() {
   return (
-    <div className="font-sans min-h-screen relative bg-background text-foreground">
+    <div className="mx-auto px-4 pt-6 sm:pt-12 w-full lg:w-2/3 xl:w-1/2 text-foreground">
       <GridPattern
         width={30}
         height={30}
@@ -21,7 +21,7 @@ export default function Home() {
       </div>
 
       {/* Main Content - Twitter-like narrow column */}
-      <div className="max-w-2xl mx-auto px-4 py-16">
+      <main className="px-4 min-h-lvh">
         {/* Header Section */}
         <header className="mb-12">
           <h1 className="text-3xl font-bold tracking-tight mb-2">Deepak Modi</h1>
@@ -110,7 +110,7 @@ export default function Home() {
         <footer className="border-t border-gray-200 dark:border-gray-800 pt-8 text-sm text-foreground/60">
           <p>© {new Date().getFullYear()} Deepak Modi. All rights reserved.</p>
         </footer>
-      </div>
+      </main>
     </div>
   );
 }
