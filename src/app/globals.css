@@ -6,6 +6,7 @@
   --muted: #f6f6f6;
   --muted-foreground: #71717a;
   --border: #e4e4e7;
+  --hover: #f3f4f6;
 }
 
 .dark {
@@ -14,6 +15,7 @@
   --muted: #1c1c1c;
   --muted-foreground: #a1a1aa;
   --border: #27272a;
+  --hover: rgba(255, 255, 255, 0.05);
 }
 
 body {
@@ -21,4 +23,8 @@ body {
   color: var(--foreground);
   font-family: system-ui, -apple-system, sans-serif;
   transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.hover-bg:hover {
+  background-color: var(--hover);
 }
